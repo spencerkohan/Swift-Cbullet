@@ -1,0 +1,7 @@
+module Cbullet [system] {
+  umbrella header "shim.h"
+  link "bullet"
+  link framework "BulletDynamics"
+  link framework "BulletCollision"
+  export *
+}
